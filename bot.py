@@ -11,7 +11,7 @@ from urllib3.util.retry import Retry
 
 # Константы
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
-CHAT_ID = "-1003820211337"  # ID группы (твой)
+CHAT_ID = os.environ.get('CHAT_ID')
 
 # === 1. КЛЮЧЕВЫЕ СЛОВА (БЕЗ "ИИ") ===
 AI_KEYWORDS = [
